@@ -18,6 +18,11 @@ def main():
     
     return render_template('index1.html')
 
+
+@app.route('/ng')
+def angular():
+    return render_template('index.html')
+
 if __name__ == "__application__":
     app.run()
     
